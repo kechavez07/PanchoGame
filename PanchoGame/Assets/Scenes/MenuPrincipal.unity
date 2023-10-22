@@ -123,6 +123,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &433725737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 433725738}
+  - component: {fileID: 433725739}
+  m_Layer: 0
+  m_Name: GestorJuego
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &433725738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433725737}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1638122, y: -0.4829966, z: 0.04230317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433725739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433725737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1791334ffe2394a83028da374b0f8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreDeLaSegundaEscena: 
 --- !u!1 &481583409
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,6 +1028,7 @@ GameObject:
   - component: {fileID: 1239737172}
   - component: {fileID: 1239737171}
   - component: {fileID: 1239737170}
+  - component: {fileID: 1239737173}
   m_Layer: 5
   m_Name: ButtonIniciar
   m_TagString: Untagged
@@ -1092,6 +1138,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239737168}
   m_CullTransparentMesh: 1
+--- !u!114 &1239737173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239737168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1791334ffe2394a83028da374b0f8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreDeLaSegundaEscena: Main
 --- !u!1 &1272364639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,3 +1581,4 @@ SceneRoots:
   - {fileID: 1043730183}
   - {fileID: 481583413}
   - {fileID: 1008730553}
+  - {fileID: 433725738}
