@@ -22,4 +22,6 @@ public class GeneradorObjeto : MonoBehaviour
             tiempoInicial += Time.deltaTime;
         }
     }
+
+	
 }

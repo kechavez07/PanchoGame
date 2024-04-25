@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
+
     private void Awake()
     {
         //para no tener varios objetos con distintos datos
@@ -24,7 +25,7 @@ public class GameController : MonoBehaviour
         }
     }
 
-    //cuando un objeto se destruye OnDestroy SEGUNDA ESCENA O MÁS ESCENAS
+    //cuando un objeto se destruye OnDestroy SEGUNDA ESCENA O Mï¿½S ESCENAS
 
     public void OnDestroy()
     {
@@ -52,5 +53,25 @@ public class GameController : MonoBehaviour
     {
         GameOverText.SetActive(true);
         gameOver = true;
+    }
+
+    public void actualizarPuntos()
+    {
+        if ( GameController.instance == null)
+        {
+            return;
+        }
+
+        if(puntos == 30)
+        {
+            BirdDie();
+        }
+        else
+        {
+			puntos++;
+			puntosText.text = "Puntos: " + puntos;
+			SoundSystem.instance.PlayCoin();
+		}
+
     }
 }
