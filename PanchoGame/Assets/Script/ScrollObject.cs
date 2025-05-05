@@ -25,4 +25,9 @@ public class ScrollObject : MonoBehaviour
             rb2d.velocity = Vector2.zero;
         }
     }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject); // Elimina el objeto de la escena
+    }
 }

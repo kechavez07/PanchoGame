@@ -893,6 +893,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59e07b2da0d157f458b16a6a5fbb7560, type: 3}
+--- !u!1 &714551762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 714551764}
+  - component: {fileID: 714551763}
+  m_Layer: 0
+  m_Name: GenradorTrash (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &714551763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714551762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2542472ec2ec7438e07b9d69bf1428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoMax: 6
+  obstacle: {fileID: 749414331341059629, guid: 47b5ace1b52484140a8d31278ed5bf18, type: 3}
+--- !u!4 &714551764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714551762}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: 3, z: 0}
+  m_LocalScale: {x: 0.94697, y: 0.94697, z: 0.94697}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &720137060
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1485,52 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1099413466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099413468}
+  - component: {fileID: 1099413467}
+  m_Layer: 0
+  m_Name: GenradorTrash (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1099413467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099413466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2542472ec2ec7438e07b9d69bf1428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoMax: 8
+  obstacle: {fileID: 749414331341059629, guid: 47b5ace1b52484140a8d31278ed5bf18, type: 3}
+--- !u!4 &1099413468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099413466}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalScale: {x: 0.94697, y: 0.94697, z: 0.94697}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1223993789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,7 +1624,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1627009286}
-  - component: {fileID: 1627009287}
   m_Layer: 0
   m_Name: GeneradorPaper
   m_TagString: Untagged
@@ -1555,20 +1646,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1627009287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627009284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb2542472ec2ec7438e07b9d69bf1428, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tiempoMax: 2
-  obstacle: {fileID: 199181498834200383, guid: 72f9ce0ddb386de4ca3b56c37d3ea185, type: 3}
 --- !u!1 &1706921918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,4 +1707,6 @@ SceneRoots:
   - {fileID: 720137063}
   - {fileID: 1627009286}
   - {fileID: 1223993791}
+  - {fileID: 1099413468}
+  - {fileID: 714551764}
   - {fileID: 869216871}
