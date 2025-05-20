@@ -28,6 +28,9 @@ public class ScrollObject : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        Destroy(gameObject); // Elimina el objeto de la escena
+        if (CompareTag("Coin"))
+        {
+            Destroy(gameObject); // Solo destruye si es una moneda
+        }
     }
 }
